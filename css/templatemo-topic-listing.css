@@ -561,7 +561,7 @@ strong {
   display: block;
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
   margin-top: 35px;
 }
 
@@ -1121,11 +1121,11 @@ blockquote {
     flex-direction: column;
   }
 
-  .timeline-container .vertical-scrollable-timeline .list-progress {
+  .timeline-container .vertical-scrollable-timeline-education .list-progress {
     height: 75%;
   }
 
-  .timeline-container .vertical-scrollable-timeline li {
+  .timeline-container .vertical-scrollable-timeline-education li {
     padding-left: 135px;
   }
 
