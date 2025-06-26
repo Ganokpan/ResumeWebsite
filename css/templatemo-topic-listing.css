@@ -142,6 +142,10 @@ strong {
   padding-bottom: 100px;
 }
 
+.sectionskill-padding {
+  padding-top: 100px;
+}
+
 .section-bg {
   background-color: var(--section-bg-color);
 }
@@ -1066,7 +1070,7 @@ blockquote {
     font-size: 18px;
   }
 
-  .section-padding {
+  .section-padding, .sectionskill-padding {
     padding-top: 50px;
     padding-bottom: 50px;
   }
