@@ -565,6 +565,15 @@ strong {
   margin-top: 35px;
 }
 
+.custom-block-image-aboutme {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 35px;
+  transform: scaleX(-1);
+}
+
 .custom-block .rounded-pill {
   border-radius: 5px !important;
   display: flex;
@@ -585,12 +594,13 @@ strong {
   height: 100%;
 }
 
-.custom-block-overlay .custom-block-image {
+.custom-block-overlay .custom-block-image, .custom-block-overlay .custom-block-image-aboutme {
   border-radius: var(--border-radius-medium);
   display: block;
   height: 100%;
   margin-top: 0;
 }
+
 
 .custom-block-overlay-text {
   position: absolute;
@@ -1114,6 +1124,8 @@ blockquote {
   .custom-block-topics-listing .custom-block-image {
     width: auto;
   }
+
+
 
   .custom-block-topics-listing > .d-flex,
   .custom-block-topics-listing-info,
